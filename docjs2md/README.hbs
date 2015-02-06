@@ -1,6 +1,10 @@
 #Inherit Multiple
 Extends a child class by creating a prototype chain out of the base class(es)
 ----
+[![view on npm](http://img.shields.io/npm/v/inherit-multiple.svg)](https://www.npmjs.org/package/inherit-multiple)
+[![npm module downloads per month](http://img.shields.io/npm/dm/inherit-multiple.svg)](https://www.npmjs.org/package/inherit-multiple)
+[![Build Status](https://travis-ci.org/Jhorlin/inherit-multiple.svg?branch=master)](https://travis-ci.org/Jhorlin/inherit-multiple)
+[![Dependency Status](https://david-dm.org/Jhorlin/inherit-multiple.svg)](https://david-dm.org/Jhorlin/inherit-multiple)
 ## Usage
 Install
 `$ npm install inherit-multiple`
