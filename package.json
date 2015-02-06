@@ -8,12 +8,13 @@
   },
   "dependencies": {},
   "devDependencies": {
-    "groc": "^0.8.0",
+    "jsdoc-to-markdown": "^0.6.3",
     "mocha": "^2.1.0",
     "should": "^4.6.3"
   },
   "scripts": {
-    "test": "mocha"
+    "test": "node_modules/.bin/mocha",
+    "doc": "node_modules/.bin/jsdoc2md --src lib/*.js > lib/README.md"
   },
   "repository": {
     "type": "git",
