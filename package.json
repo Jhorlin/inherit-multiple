@@ -2,7 +2,7 @@
   "name": "inherit-multiple",
   "version": "1.0.0",
   "description": "Multiple inheritence",
-  "main": "index.js",
+  "main": "lib/inheritMultiple.js",
   "directories": {
     "test": "test"
   },
@@ -14,7 +14,7 @@
   },
   "scripts": {
     "test": "node_modules/.bin/mocha",
-    "doc": "node_modules/.bin/jsdoc2md --src lib/*.js index.js > lib/README.md > README.md"
+    "doc": "node_modules/.bin/jsdoc2md --template docjs2md/README.hbs --src lib/*.js index.js > README.md; echo"
   },
   "repository": {
     "type": "git",
