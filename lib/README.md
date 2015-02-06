@@ -1,17 +1,3 @@
-## Modules
-<dl>
-<dt><a href="#module_inherit-multiple">inherit-multiple</a> → <code>function</code></dt>
-<dd><p>inheritMultiple module.</p>
-</dd>
-<dt><a href="#module_lib/inheritMultiple">lib/inheritMultiple</a> → <code>function</code></dt>
-<dd><p>inheritMultiple module.</p>
-</dd>
-</dl>
-<a name="module_inherit-multiple"></a>
-## inherit-multiple → <code>function</code>
-inheritMultiple module.
-
-**See**: module:lib/inheritMultiple  
 <a name="module_lib/inheritMultiple"></a>
 ## lib/inheritMultiple → <code>function</code>
 inheritMultiple module.
