@@ -20,7 +20,7 @@
         it("should inherit Parent", function(){
             function ChildClass(){}
             function ParentClass(){}
-            var parentMethods = ['parentMethod1', 'parentMethod']
+            var parentMethods = ['parentMethod1', 'parentMethod'];
             methodBuilder(ParentClass, parentMethods);
             inheritMultiple(ChildClass, ParentClass);
             var childInstance = new ChildClass();
@@ -47,5 +47,5 @@
         });
 
     });
-}(require('should'), require('../test/utils/methodBuilder'), require('../index')));
+}(require('should'), require('../test/utils/methodBuilder'), require('../lib/inheritMultiple')));
 
