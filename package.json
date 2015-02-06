@@ -1,12 +1,14 @@
 {
   "name": "inherit-multiple",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Multiple inheritence",
   "main": "lib/inheritMultiple.js",
   "directories": {
     "test": "test"
   },
-  "dependencies": {},
+  "dependencies": {
+    "extend": "^2.0.0"
+  },
   "devDependencies": {
     "jsdoc-to-markdown": "^0.6.3",
     "mocha": "^2.1.0",

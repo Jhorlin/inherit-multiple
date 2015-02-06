@@ -26,7 +26,7 @@
             var childInstance = new ChildClass();
             childInstance.should.be.an.instanceOf(ChildClass);
             parentMethods.forEach(function(method){
-               childInstance.should.have.property(method);
+               childInstance.should.have.property(method).which.is.a.Function;
             });
         });
 
@@ -42,7 +42,7 @@
             var childInstance = new ChildClass();
             childInstance.should.be.an.instanceOf(ChildClass);
             parentMethods.concat(grandParentMethods).forEach(function(method){
-                childInstance.should.have.property(method);
+                childInstance.should.have.property(method).which.is.a.Function;
             });
         });
 
