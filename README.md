@@ -1,4 +1,6 @@
 #Inherit Multiple
+
+[![Join the chat at https://gitter.im/Jhorlin/inherit-multiple](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/Jhorlin/inherit-multiple?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 Extends a child class by creating a prototype chain out of the base class(es)
 ----
 [![view on npm](http://img.shields.io/npm/v/inherit-multiple.svg)](https://www.npmjs.org/package/inherit-multiple)
